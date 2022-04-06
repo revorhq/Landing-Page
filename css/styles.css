@@ -3401,7 +3401,8 @@ img.u-pull-left {
 }
 
 .s-info .row {
-    max-width : 1020px;
+    max-width : 1020
+    px;
 }
 
 .s-info h2 {
