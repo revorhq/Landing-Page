@@ -161,25 +161,135 @@ particlesJS("particles-js", {
     //   },
     //   "retina_detect": true
    
+        // "particles": {
+        //   "number": {
+        //     "value": 150,
+        //     "density": {
+        //       "enable": true,
+        //       "value_area": 800
+        //     }
+        //   },
+        //   "color": {
+        //     "value": "#FFFAFA"
+        //   },
+        //   "shape": {
+        //     "type": "circle",
+        //     "stroke": {
+        //       "width": 0,
+        //       "color": "#ffffff"
+        //     },
+        //     "polygon": {
+        //       "nb_sides": 5
+        //     },
+        //     "image": {
+        //       "src": "img/github.svg",
+        //       "width": 100,
+        //       "height": 100
+        //     }
+        //   },
+        //   "opacity": {
+        //     "value": 5,
+        //     "random": true,
+        //     "anim": {
+        //       "enable": false,
+        //       "speed": 0.5,
+        //       "opacity_min": 10,
+        //       "sync": false
+        //     }
+        //   },
+        //   "size": {
+        //     "value": 5,
+        //     "random": true,
+        //     "anim": {
+        //       "enable": true,
+        //       "speed": 0.5,
+        //       "size_min": 0.5,
+        //       "sync": false
+        //     }
+        //   },
+        //   "line_linked": {
+        //     "enable": true,
+        //     "distance": 90,
+        //     "color": "#FE00CC",
+        //     "opacity": 1000,
+        //     "width": 2
+        //   },
+        //   "move": {
+        //     "enable": true,
+        //     "speed": 3,
+        //     "direction": "none",
+        //     "random": false,
+        //     "straight": false,
+        //     "out_mode": "out",
+        //     "bounce": false,
+        //     "attract": {
+        //       "enable": false,
+        //       "rotateX": 600,
+        //       "rotateY": 600
+        //     }
+        //   }
+        // },
+        // "interactivity": {
+        //   "detect_on": "canvas",
+        //   "events": {
+        //     "onhover": {
+        //       "enable": true,
+        //       "mode": "repulse"
+        //     },
+        //     "onclick": {
+        //       "enable": true,
+        //       "mode": "push"
+        //     },
+        //     "resize": true
+        //   },
+        //   "modes": {
+        //     "grab": {
+        //       "distance": 140,
+        //       "line_linked": {
+        //         "opacity": 3
+        //       }
+        //     },
+        //     "bubble": {
+        //       "distance": 400,
+        //       "size": 40,
+        //       "duration": 2,
+        //       "opacity": 8,
+        //       "speed": 0.5
+        //     },
+        //     "repulse": {
+        //       "distance": 200,
+        //       "duration": 0.4
+        //     },
+        //     "push": {
+        //       "particles_nb": 1
+        //     },
+        //     "remove": {
+        //       "particles_nb": 2
+        //     }
+        //   }
+        // },
+        // "retina_detect": true
+      
+      
         "particles": {
           "number": {
-            "value": 150,
+            "value": 110,
             "density": {
               "enable": true,
               "value_area": 800
             }
           },
           "color": {
-            "value": "#FFFAFA"
+            "value": "#FF0000"
           },
           "shape": {
             "type": "circle",
             "stroke": {
-              "width": 0,
-              "color": "#ffffff"
+              "width": 3,
+              "color": "#FF0000"
             },
-            "polygon": {
-              "nb_sides": 5
+            "square": {
+              "nb_sides": 4
             },
             "image": {
               "src": "img/github.svg",
@@ -188,30 +298,30 @@ particlesJS("particles-js", {
             }
           },
           "opacity": {
-            "value": 5,
-            "random": true,
+            "value": 0.5,
+            "random": false,
             "anim": {
               "enable": false,
-              "speed": 0.5,
-              "opacity_min": 10,
+              "speed": 1,
+              "opacity_min": 5,
               "sync": false
             }
           },
           "size": {
-            "value": 5,
+            "value": 3,
             "random": true,
             "anim": {
-              "enable": true,
-              "speed": 0.5,
-              "size_min": 0.5,
+              "enable": false,
+              "speed": 10,
+              "size_min": 5,
               "sync": false
             }
           },
           "line_linked": {
             "enable": true,
-            "distance": 90,
-            "color": "#FE00CC",
-            "opacity": 1000,
+            "distance": 150,
+            "color": "#FFFFFF",
+            "opacity": 10,
             "width": 2
           },
           "move": {
@@ -244,24 +354,24 @@ particlesJS("particles-js", {
           },
           "modes": {
             "grab": {
-              "distance": 140,
+              "distance": 400,
               "line_linked": {
-                "opacity": 3
+                "opacity": 5
               }
             },
             "bubble": {
               "distance": 400,
               "size": 40,
               "duration": 2,
-              "opacity": 8,
-              "speed": 0.5
+              "opacity": 18,
+              "speed": 3
             },
             "repulse": {
-              "distance": 200,
+              "distance": 80,
               "duration": 0.4
             },
             "push": {
-              "particles_nb": 1
+              "particles_nb": 4
             },
             "remove": {
               "particles_nb": 2
@@ -269,8 +379,6 @@ particlesJS("particles-js", {
           }
         },
         "retina_detect": true
-      
-      
       
     
 });
