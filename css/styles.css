@@ -2916,7 +2916,9 @@ img.u-pull-left {
 .theme-particles .s-intro .s-intro__content {
     pointer-events : none;
 }
-
+.particles-js{
+    background-position: 50% 50%;
+}
 .theme-particles .s-intro .s-intro__content-bottom,
 .theme-particles .s-intro .s-intro__scroll {
     pointer-events : auto;
@@ -3058,7 +3060,9 @@ img.u-pull-left {
 }
 
 /* -------------------------------------------------------------------
- * ## intro particles
+ * ## intro 
+ 
+
  * ------------------------------------------------------------------- */
 .s-intro__particles {
     position         : absolute;
@@ -3074,7 +3078,7 @@ img.u-pull-left {
     opacity          : .20;
 }
 
-.s-intro__particles canvas {
+.s-intro__ canvas {
     position : absolute;
     top      : 0;
     left     : 0;
